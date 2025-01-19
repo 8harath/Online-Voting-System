@@ -84,8 +84,8 @@ def dashboard():
             # If no candidates are found, add so
             # me sample candidates
             sample_candidates = [
-                ('John Doe', 'Party 1', 'john_doe.jpg', 'Promise 1\nPromise 2', 'Assets info', 'Liabilities info', 'Background info', 'Political views', 'Regional views'),
-                ('Jane Smith', 'Party B', 'jane_smith.jpg', 'Promise 1\nPromise 2', 'Assets info', 'Liabilities info', 'Background info', 'Political views', 'Regional views'),
+                ('John Doe', 'Party 1', 'images/candidate_photos/john_doe.jpg', 'Promise 1\nPromise 2', 'Assets info', 'Liabilities info', 'Background info', 'Political views', 'Regional views'),
+                ('Jane Smith', 'Party B', 'images/candidate_photos/jane_smith.jpg', 'Promise 1\nPromise 2', 'Assets info', 'Liabilities info', 'Background info', 'Political views', 'Regional views'),
             ]
             cur.executemany("""
                 INSERT INTO candidates (name, party, photo_url, promises, assets, liabilities, background, political_views, regional_views)
