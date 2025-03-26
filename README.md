@@ -78,3 +78,4 @@ Online-Voting-System/
 - **Logout**: Users can log out of the system securely.
 
 We hope this project serves as a useful tool for conducting online elections and provides a good learning experience for those interested in web development and database management.
+---
