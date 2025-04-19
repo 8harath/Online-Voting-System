@@ -8,7 +8,7 @@ This repository contains the code for an Online Voting System, which is a colleg
 
 We welcome any suggestions and feedback to improve this project. Please feel free to open an issue or submit a pull request with your ideas and improvements.
 
-## Project Setup and Installation
+## Project Setup and Installationn
 
 To set up and run the project locally, follow these steps:
 
